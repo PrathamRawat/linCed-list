@@ -23,7 +23,7 @@ int main() {
   free_list(yeet);
   print_list(yeet);
 
-  struct node * yeet = calloc(sizeof(yeet), 1);
+  yeet = calloc(sizeof(yeet), 1);
   for(i = 0; i < 10; i++) {
     yeet = insert_front(yeet, i);
   }
